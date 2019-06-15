@@ -42,7 +42,7 @@ public class CustomAdapter extends SimpleAdapter {
             String dphone =(String) data.get("phone");
             String dadd =(String) data.get("address");
             String dloc =(String) data.get("location");
-            String drid=(String) data.get("bakeryid");
+            String drid=(String) data.get("shopid");
             tvshopyname.setText(dname);
             tvphone.setText(dphone);
             tvadd.setText(dadd);
