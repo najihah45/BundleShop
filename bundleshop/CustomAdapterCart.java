@@ -48,7 +48,7 @@ public class CustomAdapterCart extends SimpleAdapter {
             tvitemprice.setText(ditemprice);
             tvquantity.setText(ditemquan);
             tvstatus.setText(dist);
-            String image_url = "https://tiamobakery.000webhostapp.com/cakehunters/images/"+diid+".jpg";
+            String image_url = "https://bundleshop.000webhostapp.com/Bundle/images/"+diid+".jpg";
             Picasso.with(mContext).load(image_url)
                     .fit().into((Target) imgitem);
 
