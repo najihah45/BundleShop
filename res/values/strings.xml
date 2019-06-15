@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Bundle Shop</string>
+    <string name="youremail">Your Email</string>
+    <string name="yourpassword">Your Password</string>
+    <string name="login">Login</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="newregistration">Register Here</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="clicktotake">Click above to take picture</string>
+    <string name="location">LOCATION</string>
+    <string name="PHONE">MOBILE PHONE</string>
+    <string name="NAME">NAME</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="sethomelocation">Home Location</string>
+    <string name="REGISTER">REGISTER</string>
+    <string name="alreadyregister">Already Register</string>
+    <string name="registration">Registration</string>
+    <string name="close">CLOSE</string>
+    <string name="dialogtakepicture">Take Picture?</string>
+    <string name="dialogtakepicturea">Make sure to use your own picture</string>
+    <string name="yesbutton">Yes</string>
+    <string name="nobutton">No</string>
+    <string name="selectlocation">Select Location</string>
+    <string name="cart">My Cart</string>
+    <string name="registerdialognew">Register new account</string>
+    <string name="registrationprocess">Registration in progress</string>
+    <string name="registerfor">Register for</string>
+
+    <string-array name="location">
+        <item>All</item>
+        <item>Changlun</item>
+        <item>Sintok</item>
+        <item>Bukit Kayu Hitam</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">615435802271174</string>
+</resources>
