@@ -34,7 +34,7 @@ public class PaymentActivity extends AppCompatActivity {
         simpleWebView = (WebView) findViewById(R.id.wbview);
         simpleWebView.setWebViewClient(new MyWebViewClient());
 
-        String url = "http://uumresearch.com/bundleshop/php/payment.php?" +
+        String url = "https://bundleshop.000webhostapp.com/Bundle/payment.php" +
                 "userid="+userid+"&mobile="+phone+"&name="+name+"&amount="+total+"&orderid="+orderid;
         simpleWebView.getSettings().setJavaScriptEnabled(true);
         simpleWebView.loadUrl(url); // load the url on the web view
