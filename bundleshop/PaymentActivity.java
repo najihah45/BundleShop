@@ -44,7 +44,7 @@ public class PaymentActivity extends AppCompatActivity {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            Log.e("HANIS","shouldOverrideUrlLoading");
+            Log.e("BUNDLE","shouldOverrideUrlLoading");
 
             if (!loadingFinished) {
                 redirect = true;
