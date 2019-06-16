@@ -55,7 +55,7 @@ public class PaymentActivity extends AppCompatActivity {
         }
         @Override
         public void onPageStarted(WebView view, String url, Bitmap facIcon) {
-            Log.e("HANIS","onPageStarted");
+            Log.e("BUNDLE","onPageStarted");
             loadingFinished = false;
 
             //SHOW LOADING IF IT ISNT ALREADY VISIBLE
