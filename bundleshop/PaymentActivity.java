@@ -63,7 +63,7 @@ public class PaymentActivity extends AppCompatActivity {
 
         @Override
         public void onPageFinished(WebView view, String url) {
-            Log.e("HANIS","onPageFinished");
+            Log.e("BUNDLE","onPageFinished");
             if(!redirect){
                 loadingFinished = true;
             }
